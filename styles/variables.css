@@ -1,25 +1,22 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+  :root {
+    --accent-color: #FF0070;
+    --text-main-color: #F1B2CE;
+    --button-list-color: #FF0070;
+    --button-list-hover-color: rgba(255, 0, 112, 0.40);
+    --font-family: 'IBM Plex Mono', monospace;
+    --text-line-height: line-height: 23.4px;
+    --subtitle-color: #FF0070;
+    --corner-color: #FF0070;
+    --rec-element-color: #FF0070;
+    --text-font-size: 18px;
+    --title-decor: #FF0070;
+    --background-color: #000028;
+    --heading-text-color: #000028;
+    --header-color: #db00ff;
+    --footer-color: #db00ff;
+    --unique-decoration-color: #F1B2CE;
+    --shadow-color: #ff0070;
+    --small-gap: 12px;
+    --mid-gap: 23px;
+  }
 
-:root {
-  --background-image: url("../images/cover-image-dark.png");
-  --accent-color: #ff0070;
-  --accent-color-opacity: #ff007066;
-  --text-color: #f1b2ce;
-  --decoration-color: var(--accent-color);
-  --background-color: #000028;
-  --header1-color: #db00ff;
-  --header2-color: var(--accent-color);
-  --header3-color: var(--background-color);
-  --font-family: 'IBM Plex mono', monospace;
-  --regular-font-size: 18px;
-  --small-line-height: 83%;
-  --regular-line-height: 100%;
-  --large-line-height: 130%;
-  --bold-font-weight: 700;
-  --regular-font-weight: 400;
-  --font-style: normal;
-  --is-light: visible;
-}
